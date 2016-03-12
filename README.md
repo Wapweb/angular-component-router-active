@@ -10,7 +10,8 @@ $ npm install angular-component-router-active --save
 
 ## Usage
 
-1. Add module to your app
+1.Add module to your app
+
 ```javascript
 angular.module('app', ['wapweb.componentRouterActive']);
 ```
@@ -20,7 +21,8 @@ import angularComponentRouterActive from 'angular-component-router-active';
 angular.module('app', [angularComponentRouterActive]);
 ```
 
-2. Add `router-active` directive to your template
+2.Add `router-active` directive to your template
+
 ```html
 <ul>
     <li router-active="active">
