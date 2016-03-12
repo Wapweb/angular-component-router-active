@@ -1,0 +1,1 @@
+routerActive directive for angular 1.5 component router
