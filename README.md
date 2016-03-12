@@ -1,6 +1,6 @@
 # angular-component-router-active
 
-routerActive directive for angular 1.5 component router
+routerActive directive for angular 1.5 [component router](https://docs.angularjs.org/guide/component-router)
 
 ## Install
 
