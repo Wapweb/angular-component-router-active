@@ -59,4 +59,4 @@
     }
 
     routerActive.$inject = ['$rootScope', '$rootRouter', '$parse'];
-})();
+})(angular);
