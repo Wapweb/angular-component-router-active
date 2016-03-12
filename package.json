@@ -1,0 +1,27 @@
+{
+  "name": "angular-component-router-active",
+  "version": "0.0.1",
+  "description": "routerActive directive for angular 1.5 component router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wapweb/angular-component-router-active.git"
+  },
+  "keywords": [
+    "router-active",
+    "routerActive",
+    "component",
+    "router",
+    "angular",
+    "1.5"
+  ],
+  "author": "Alexandr Shapoval <abit-poisk@yandex.ua>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wapweb/angular-component-router-active/issues"
+  },
+  "homepage": "https://github.com/Wapweb/angular-component-router-active#readme"
+}
