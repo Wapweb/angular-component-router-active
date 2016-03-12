@@ -1,6 +1,6 @@
 {
   "name": "angular-component-router-active",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "routerActive directive for angular 1.5 component router",
   "main": "index.js",
   "scripts": {
