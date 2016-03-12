@@ -35,3 +35,6 @@ angular.module('app', [angularComponentRouterActive]);
     </li>
 </ul>
 ```
+
+##Demo
+There is a simple demo [on Plnkr](http://plnkr.co/edit/l9xdUfcEULLhfwJMBuzS?p=preview)
