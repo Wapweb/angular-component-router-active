@@ -1,2 +1,2 @@
 require('./angular-component-router-active');
-module.exports = 'angularComponentRouterActive';
+module.exports = 'wapweb.componentRouterActive';
