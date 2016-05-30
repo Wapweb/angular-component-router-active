@@ -23,7 +23,7 @@
                 var link = findNgLink();
 
                 var routeParamsGetter = $parse(link);
-                var params = routeParamsGetter();
+                var params = routeParamsGetter(scope);
                 var instruction = router.generate(params);
                 var className = attrs.routerActive || 'active';
 
