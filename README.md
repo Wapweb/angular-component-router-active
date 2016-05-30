@@ -37,4 +37,4 @@ angular.module('app', [angularComponentRouterActive]);
 ```
 
 ##Demo
-There is a simple demo [on Plnkr](http://plnkr.co/edit/l9xdUfcEULLhfwJMBuzS?p=preview)
+There is a simple demo [on Plnkr](http://plnkr.co/edit/ZhHPXFUNIdzgfESWq5mO?p=preview)
