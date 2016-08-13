@@ -26,8 +26,9 @@
                 var params = routeParamsGetter(scope);
                 var instruction = router.generate(params);
                 var className = attrs.routerActive || 'active';
+                var off = $rootScope.$on('$routeChangeSuccess', setClassToActiveElement);
 
-                var off = $rootScope.$on('$routeChangeSuccess', function () {
+                function setClassToActiveElement() {
                     var isActive = router.isRouteActive(instruction);
 
                     if (isActive) {
@@ -35,8 +36,9 @@
                     } else {
                         element.removeClass(className);
                     }
-                });
+                };
 
+                setClassToActiveElement();
                 scope.$on('$destroy', off);
 
                 function findNgLink() {
